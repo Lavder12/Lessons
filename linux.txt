@@ -1,0 +1,5 @@
+мой SSH ключ
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMPIVh2mreSpkNSsu4d1XA6PeHXx3LB1kzF6ZRXdcRwx Ideapad@DESKTOP-G4EBABQ
+
+
+git rev-parse --show-toplevel

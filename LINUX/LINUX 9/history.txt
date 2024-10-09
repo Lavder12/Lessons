@@ -1,0 +1,60 @@
+ё   0 touch myfirstbashscript.sh
+   1 export USER="Vladyslav"
+   2 nanomyfirstbashscript.sh
+   3 nano myfirstbashscript.sh
+   4 chmod 777 myfirstbashscript.sh
+   5 nano myfirstbashscript.sh
+   6 ./myfirstbashscript.sh
+   7 nano myfirstbashscript.sh
+   8 ./myfirstbashscript.sh
+   9 nano myfirstbashscript.sh
+  10 ./myfirstbashscript.sh
+  11 nano myfirstbashscript.sh
+  12 ./myfirstbashscript.sh
+  13 nano myfirstbashscript.sh
+  14 ./myfirstbashscript.sh
+  15 nano myfirstbashscript.sh
+  16 ./myfirstbashscript.sh
+  17 date --help
+  18 date -D
+  19 date -%D
+  20 date %D
+  21 date -%D
+  22 date 
+  23 date +%D
+  24 nano myfirstbashscript.sh
+  25 ./myfirstbashscript.sh
+  26 nano myfirstbashscript.sh
+  27 ./myfirstbashscript.sh
+  28 date +%D
+  29 nano myfirstbashscript.sh
+  30 date +%D
+  31 ./myfirstbashscript.sh
+  32 nano myfirstbashscript.sh
+  33 ./myfirstbashscript.sh
+  34 nano myfirstbashscript.sh
+  35 ps -f
+  36 ps -f | grep bioset
+  37 ps -f | grep bioset | wc -l
+  38 ps -f | grep [b]ioset | wc -l
+  39 nano myfirstbashscript.sh
+  40 ./myfirstbashscript.sh
+  41 ls /etc/passwd
+  42 ls /etc/
+  43 ls -l /etc/
+  44 awk /etc/passwd
+  45 ls -l | awk('print $1')
+  46 ls -l | awk ('print $1')
+  47 ls -l | awk 'print $1'
+  48 ls -l /etc/passwd | awk '{print $1'
+  49 ls -l /etc/passwd | awk '{print $1}'
+  50 nano myfirstbashscript.sh
+  51 ./myfirstbashscript.sh
+  52 export_file myfirstbashscript.sh
+  53 ./myfirstbashscript.sh
+  54 nano myfirstbashscript.sh
+  55 ./myfirstbashscript.sh
+  56 export USER="Vlad"
+  57 ./myfirstbashscript.sh
+  58 touch history.txt
+  59 history >> history.txt

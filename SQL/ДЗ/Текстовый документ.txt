@@ -1,0 +1,25 @@
+# Write your MySQL query statement below
+create table Person (
+personId int primary key,
+lastName varchar (64),
+firstName varchar(64)
+)
+
+CREATE TABLE Address (
+    addressId INT,
+    personId INT,
+    city VARCHAR(100),
+    street VARCHAR(100),
+    PRIMARY KEY (addressId, personId), -- Составной первичный ключ
+    FOREIGN KEY (personId) REFERENCES Person(personId)
+);
+
+insert into Person(personId, lastName, firstName)
+Values
+(1, 'Wang', 'Allen')
+(2, 'Alice', 'Bob')
+
+insert into Address (addressId, personId, city, state)
+Values
+(1, 2, "New York City", "New York")
+(2, 3, "Leetcode", "California")
